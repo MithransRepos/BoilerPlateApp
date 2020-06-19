@@ -1,0 +1,674 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		086E5F16249CFDFB004EF99C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E5F15249CFDFB004EF99C /* AppDelegate.swift */; };
+		086E5F18249CFDFB004EF99C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E5F17249CFDFB004EF99C /* SceneDelegate.swift */; };
+		086E5F1A249CFDFB004EF99C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E5F19249CFDFB004EF99C /* ViewController.swift */; };
+		086E5F20249CFDFB004EF99C /* BoilterPlateApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 086E5F1E249CFDFB004EF99C /* BoilterPlateApp.xcdatamodeld */; };
+		086E5F22249CFDFD004EF99C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 086E5F21249CFDFD004EF99C /* Assets.xcassets */; };
+		086E5F25249CFDFD004EF99C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 086E5F23249CFDFD004EF99C /* LaunchScreen.storyboard */; };
+		086E5F30249CFDFD004EF99C /* BoilterPlateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E5F2F249CFDFD004EF99C /* BoilterPlateAppTests.swift */; };
+		086E5F3B249CFDFD004EF99C /* BoilterPlateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E5F3A249CFDFD004EF99C /* BoilterPlateAppUITests.swift */; };
+		086E5F52249CFE55004EF99C /* MithranSwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086E5F4F249CFE45004EF99C /* MithranSwiftKit.framework */; };
+		086E5F53249CFE55004EF99C /* MithranSwiftKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 086E5F4F249CFE45004EF99C /* MithranSwiftKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		086E5F2C249CFDFD004EF99C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 086E5F0A249CFDFB004EF99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086E5F11249CFDFB004EF99C;
+			remoteInfo = BoilterPlateApp;
+		};
+		086E5F37249CFDFD004EF99C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 086E5F0A249CFDFB004EF99C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 086E5F11249CFDFB004EF99C;
+			remoteInfo = BoilterPlateApp;
+		};
+		086E5F4E249CFE45004EF99C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 086E5F49249CFE45004EF99C /* MithranSwiftKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C5FFCED2243A2DF6001B2E5B;
+			remoteInfo = MithranSwiftKit;
+		};
+		086E5F50249CFE45004EF99C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 086E5F49249CFE45004EF99C /* MithranSwiftKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C5FFCEDB243A2DF6001B2E5B;
+			remoteInfo = MithranSwiftKitTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		086E5F54249CFE55004EF99C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				086E5F53249CFE55004EF99C /* MithranSwiftKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		086E5F12249CFDFB004EF99C /* BoilterPlateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoilterPlateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		086E5F15249CFDFB004EF99C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		086E5F17249CFDFB004EF99C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		086E5F19249CFDFB004EF99C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		086E5F1F249CFDFB004EF99C /* BoilterPlateApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BoilterPlateApp.xcdatamodel; sourceTree = "<group>"; };
+		086E5F21249CFDFD004EF99C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		086E5F24249CFDFD004EF99C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		086E5F26249CFDFD004EF99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086E5F2B249CFDFD004EF99C /* BoilterPlateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoilterPlateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		086E5F2F249CFDFD004EF99C /* BoilterPlateAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilterPlateAppTests.swift; sourceTree = "<group>"; };
+		086E5F31249CFDFD004EF99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086E5F36249CFDFD004EF99C /* BoilterPlateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoilterPlateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		086E5F3A249CFDFD004EF99C /* BoilterPlateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilterPlateAppUITests.swift; sourceTree = "<group>"; };
+		086E5F3C249CFDFD004EF99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		086E5F49249CFE45004EF99C /* MithranSwiftKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MithranSwiftKit.xcodeproj; path = MithranSwiftKit/MithranSwiftKit.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		086E5F0F249CFDFB004EF99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086E5F52249CFE55004EF99C /* MithranSwiftKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086E5F28249CFDFD004EF99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086E5F33249CFDFD004EF99C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086E5F09249CFDFB004EF99C = {
+			isa = PBXGroup;
+			children = (
+				086E5F48249CFE22004EF99C /* Frameworks */,
+				086E5F14249CFDFB004EF99C /* BoilterPlateApp */,
+				086E5F2E249CFDFD004EF99C /* BoilterPlateAppTests */,
+				086E5F39249CFDFD004EF99C /* BoilterPlateAppUITests */,
+				086E5F13249CFDFB004EF99C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		086E5F13249CFDFB004EF99C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				086E5F12249CFDFB004EF99C /* BoilterPlateApp.app */,
+				086E5F2B249CFDFD004EF99C /* BoilterPlateAppTests.xctest */,
+				086E5F36249CFDFD004EF99C /* BoilterPlateAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		086E5F14249CFDFB004EF99C /* BoilterPlateApp */ = {
+			isa = PBXGroup;
+			children = (
+				086E5F15249CFDFB004EF99C /* AppDelegate.swift */,
+				086E5F17249CFDFB004EF99C /* SceneDelegate.swift */,
+				086E5F19249CFDFB004EF99C /* ViewController.swift */,
+				086E5F21249CFDFD004EF99C /* Assets.xcassets */,
+				086E5F23249CFDFD004EF99C /* LaunchScreen.storyboard */,
+				086E5F26249CFDFD004EF99C /* Info.plist */,
+				086E5F1E249CFDFB004EF99C /* BoilterPlateApp.xcdatamodeld */,
+			);
+			path = BoilterPlateApp;
+			sourceTree = "<group>";
+		};
+		086E5F2E249CFDFD004EF99C /* BoilterPlateAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				086E5F2F249CFDFD004EF99C /* BoilterPlateAppTests.swift */,
+				086E5F31249CFDFD004EF99C /* Info.plist */,
+			);
+			path = BoilterPlateAppTests;
+			sourceTree = "<group>";
+		};
+		086E5F39249CFDFD004EF99C /* BoilterPlateAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				086E5F3A249CFDFD004EF99C /* BoilterPlateAppUITests.swift */,
+				086E5F3C249CFDFD004EF99C /* Info.plist */,
+			);
+			path = BoilterPlateAppUITests;
+			sourceTree = "<group>";
+		};
+		086E5F48249CFE22004EF99C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				086E5F49249CFE45004EF99C /* MithranSwiftKit.xcodeproj */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		086E5F4A249CFE45004EF99C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				086E5F4F249CFE45004EF99C /* MithranSwiftKit.framework */,
+				086E5F51249CFE45004EF99C /* MithranSwiftKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		086E5F11249CFDFB004EF99C /* BoilterPlateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086E5F3F249CFDFD004EF99C /* Build configuration list for PBXNativeTarget "BoilterPlateApp" */;
+			buildPhases = (
+				086E5F0E249CFDFB004EF99C /* Sources */,
+				086E5F0F249CFDFB004EF99C /* Frameworks */,
+				086E5F10249CFDFB004EF99C /* Resources */,
+				086E5F54249CFE55004EF99C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoilterPlateApp;
+			productName = BoilterPlateApp;
+			productReference = 086E5F12249CFDFB004EF99C /* BoilterPlateApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		086E5F2A249CFDFD004EF99C /* BoilterPlateAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086E5F42249CFDFD004EF99C /* Build configuration list for PBXNativeTarget "BoilterPlateAppTests" */;
+			buildPhases = (
+				086E5F27249CFDFD004EF99C /* Sources */,
+				086E5F28249CFDFD004EF99C /* Frameworks */,
+				086E5F29249CFDFD004EF99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				086E5F2D249CFDFD004EF99C /* PBXTargetDependency */,
+			);
+			name = BoilterPlateAppTests;
+			productName = BoilterPlateAppTests;
+			productReference = 086E5F2B249CFDFD004EF99C /* BoilterPlateAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		086E5F35249CFDFD004EF99C /* BoilterPlateAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 086E5F45249CFDFD004EF99C /* Build configuration list for PBXNativeTarget "BoilterPlateAppUITests" */;
+			buildPhases = (
+				086E5F32249CFDFD004EF99C /* Sources */,
+				086E5F33249CFDFD004EF99C /* Frameworks */,
+				086E5F34249CFDFD004EF99C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				086E5F38249CFDFD004EF99C /* PBXTargetDependency */,
+			);
+			name = BoilterPlateAppUITests;
+			productName = BoilterPlateAppUITests;
+			productReference = 086E5F36249CFDFD004EF99C /* BoilterPlateAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		086E5F0A249CFDFB004EF99C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = MithranN;
+				TargetAttributes = {
+					086E5F11249CFDFB004EF99C = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					086E5F2A249CFDFD004EF99C = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 086E5F11249CFDFB004EF99C;
+					};
+					086E5F35249CFDFD004EF99C = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 086E5F11249CFDFB004EF99C;
+					};
+				};
+			};
+			buildConfigurationList = 086E5F0D249CFDFB004EF99C /* Build configuration list for PBXProject "BoilterPlateApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 086E5F09249CFDFB004EF99C;
+			productRefGroup = 086E5F13249CFDFB004EF99C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 086E5F4A249CFE45004EF99C /* Products */;
+					ProjectRef = 086E5F49249CFE45004EF99C /* MithranSwiftKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				086E5F11249CFDFB004EF99C /* BoilterPlateApp */,
+				086E5F2A249CFDFD004EF99C /* BoilterPlateAppTests */,
+				086E5F35249CFDFD004EF99C /* BoilterPlateAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		086E5F4F249CFE45004EF99C /* MithranSwiftKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MithranSwiftKit.framework;
+			remoteRef = 086E5F4E249CFE45004EF99C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		086E5F51249CFE45004EF99C /* MithranSwiftKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MithranSwiftKitTests.xctest;
+			remoteRef = 086E5F50249CFE45004EF99C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		086E5F10249CFDFB004EF99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086E5F25249CFDFD004EF99C /* LaunchScreen.storyboard in Resources */,
+				086E5F22249CFDFD004EF99C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086E5F29249CFDFD004EF99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086E5F34249CFDFD004EF99C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		086E5F0E249CFDFB004EF99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086E5F20249CFDFB004EF99C /* BoilterPlateApp.xcdatamodeld in Sources */,
+				086E5F1A249CFDFB004EF99C /* ViewController.swift in Sources */,
+				086E5F16249CFDFB004EF99C /* AppDelegate.swift in Sources */,
+				086E5F18249CFDFB004EF99C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086E5F27249CFDFD004EF99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086E5F30249CFDFD004EF99C /* BoilterPlateAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		086E5F32249CFDFD004EF99C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				086E5F3B249CFDFD004EF99C /* BoilterPlateAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		086E5F2D249CFDFD004EF99C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 086E5F11249CFDFB004EF99C /* BoilterPlateApp */;
+			targetProxy = 086E5F2C249CFDFD004EF99C /* PBXContainerItemProxy */;
+		};
+		086E5F38249CFDFD004EF99C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 086E5F11249CFDFB004EF99C /* BoilterPlateApp */;
+			targetProxy = 086E5F37249CFDFD004EF99C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		086E5F23249CFDFD004EF99C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				086E5F24249CFDFD004EF99C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		086E5F3D249CFDFD004EF99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		086E5F3E249CFDFD004EF99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		086E5F40249CFDFD004EF99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QXGL8V8F2;
+				INFOPLIST_FILE = BoilterPlateApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mithran.BoilterPlateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		086E5F41249CFDFD004EF99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QXGL8V8F2;
+				INFOPLIST_FILE = BoilterPlateApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mithran.BoilterPlateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		086E5F43249CFDFD004EF99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QXGL8V8F2;
+				INFOPLIST_FILE = BoilterPlateAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mithran.BoilterPlateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoilterPlateApp.app/BoilterPlateApp";
+			};
+			name = Debug;
+		};
+		086E5F44249CFDFD004EF99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QXGL8V8F2;
+				INFOPLIST_FILE = BoilterPlateAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mithran.BoilterPlateAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoilterPlateApp.app/BoilterPlateApp";
+			};
+			name = Release;
+		};
+		086E5F46249CFDFD004EF99C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QXGL8V8F2;
+				INFOPLIST_FILE = BoilterPlateAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mithran.BoilterPlateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoilterPlateApp;
+			};
+			name = Debug;
+		};
+		086E5F47249CFDFD004EF99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6QXGL8V8F2;
+				INFOPLIST_FILE = BoilterPlateAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mithran.BoilterPlateAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoilterPlateApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		086E5F0D249CFDFB004EF99C /* Build configuration list for PBXProject "BoilterPlateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086E5F3D249CFDFD004EF99C /* Debug */,
+				086E5F3E249CFDFD004EF99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086E5F3F249CFDFD004EF99C /* Build configuration list for PBXNativeTarget "BoilterPlateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086E5F40249CFDFD004EF99C /* Debug */,
+				086E5F41249CFDFD004EF99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086E5F42249CFDFD004EF99C /* Build configuration list for PBXNativeTarget "BoilterPlateAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086E5F43249CFDFD004EF99C /* Debug */,
+				086E5F44249CFDFD004EF99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		086E5F45249CFDFD004EF99C /* Build configuration list for PBXNativeTarget "BoilterPlateAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				086E5F46249CFDFD004EF99C /* Debug */,
+				086E5F47249CFDFD004EF99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		086E5F1E249CFDFB004EF99C /* BoilterPlateApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				086E5F1F249CFDFB004EF99C /* BoilterPlateApp.xcdatamodel */,
+			);
+			currentVersion = 086E5F1F249CFDFB004EF99C /* BoilterPlateApp.xcdatamodel */;
+			path = BoilterPlateApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 086E5F0A249CFDFB004EF99C /* Project object */;
+}
