@@ -17,6 +17,8 @@
 		086E5F3B249CFDFD004EF99C /* BoilterPlateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086E5F3A249CFDFD004EF99C /* BoilterPlateAppUITests.swift */; };
 		086E5F52249CFE55004EF99C /* MithranSwiftKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086E5F4F249CFE45004EF99C /* MithranSwiftKit.framework */; };
 		086E5F53249CFE55004EF99C /* MithranSwiftKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 086E5F4F249CFE45004EF99C /* MithranSwiftKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		08F8940C249D16DB007DC5CE /* SlidableTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F8940B249D16DB007DC5CE /* SlidableTopView.swift */; };
+		08F89410249D2E4F007DC5CE /* SlidingViewTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F8940F249D2E4F007DC5CE /* SlidingViewTVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		086E5F3A249CFDFD004EF99C /* BoilterPlateAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoilterPlateAppUITests.swift; sourceTree = "<group>"; };
 		086E5F3C249CFDFD004EF99C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		086E5F49249CFE45004EF99C /* MithranSwiftKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MithranSwiftKit.xcodeproj; path = MithranSwiftKit/MithranSwiftKit.xcodeproj; sourceTree = "<group>"; };
+		08F8940B249D16DB007DC5CE /* SlidableTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidableTopView.swift; sourceTree = "<group>"; };
+		08F8940F249D2E4F007DC5CE /* SlidingViewTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidingViewTVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +143,8 @@
 				086E5F23249CFDFD004EF99C /* LaunchScreen.storyboard */,
 				086E5F26249CFDFD004EF99C /* Info.plist */,
 				086E5F1E249CFDFB004EF99C /* BoilterPlateApp.xcdatamodeld */,
+				08F8940B249D16DB007DC5CE /* SlidableTopView.swift */,
+				08F8940F249D2E4F007DC5CE /* SlidingViewTVCell.swift */,
 			);
 			path = BoilterPlateApp;
 			sourceTree = "<group>";
@@ -335,7 +341,9 @@
 				086E5F20249CFDFB004EF99C /* BoilterPlateApp.xcdatamodeld in Sources */,
 				086E5F1A249CFDFB004EF99C /* ViewController.swift in Sources */,
 				086E5F16249CFDFB004EF99C /* AppDelegate.swift in Sources */,
+				08F8940C249D16DB007DC5CE /* SlidableTopView.swift in Sources */,
 				086E5F18249CFDFB004EF99C /* SceneDelegate.swift in Sources */,
+				08F89410249D2E4F007DC5CE /* SlidingViewTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
